@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <script async="" src="js/fbevents.js"></script>
+    <script src="js/2.js"></script>
+    <title>Sex Doll</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <img src="images/logo.webp" class="header__logo" alt="Лого Sex Doll">
+            <div class="burger-btn" id="burger">
+                <span class="bar-top"></span>
+                <span class="bar-mid"></span>
+                <span class="bar-bot"></span>
+            </div>
+        </header>
+        <section class="s1">
+            <h1 class="title title_white"> Секс кукла</h1>
+            <div class="subtitle"> Реалистични усещания.
+                <br>Максимален комфорт. </div>
+            <div class="animation-box">
+                <img src="images/d1.webp" alt="">
+                <div class="sale">
+                    <span class="sale__title"> Отстъпка</span>
+                    <span class="sale__digit"> 50%</span>
+                </div>
+            </div>
+            <div class="header__price">
+                <div class="old-price">
+                    <span class="old-price__title"> Стара цена</span>
+                    <div class="old-price__digit"> 118 евро </div>
+                </div>
+                <div class="new-price">
+                    <span class="new-price__title"> Нова цена</span>
+                    <div class="new-price__digit"> 59<span> евро</span></div>
+                </div>
+            </div>
+
+
+            <div class="timer">
+                <p class="timer__remain"> Офертата изтича след:</p>
+                <div class="timer-wrap">
+                    <div class="timer-block"><span class="t-hour num"></span> <span class="name"> часа</span></div>
+                    <div class="timer-block"><span class="t-min num"></span> <span class="name"> минути</span></div>
+                    <div class="timer-block"><span class="t-sec num"></span> <span class="name"> секунди</span></div>
+                </div>
+            </div>
+            <a href="#order-form" class="scroll-btn"> Поръчай</a>
+        </section>
+        <section class="s2">
+            <h1 class="title title_white"> Идеалният избор за тези, които търсят качество, реализъм и дискретност в един продукт.
+            </h1>
+            <div class="s2__list">
+                <div class="s2__item">
+                    <div class="s2__item-field">
+                        <span> Изключително реалистичен дизайн</span>
+
+                    </div>
+                    <img src="images/a1.webp" alt="">
+                </div>
+                <div class="s2__item">
+                    <img src="images/a2.webp" alt="">
+                    <div class="s2__item-field">
+                        <span> Мек и безопасен материал</span>
+                    </div>
+                </div>
+                <div class="s2__item">
+                    <div class="s2__item-field">
+                        <span> Компактен и удобен размер</span>
+                    </div>
+                    <img src="images/a3.webp" alt="">
+                </div>
+                <div class="s2__item">
+                    <img src="images/a4.webp" alt="">
+                    <div class="s2__item-field">
+                        <span> Комфорт и грижа</span>
+                    </div>
+                </div>
+            </div>
+            <h1 id="how-work" class="title title_white"> Открийте ново ниво на удоволствие с нашата висококачествена силиконова кукла, създадена с внимание към всеки детайл</h1>
+            <img src="images/1.mp4" class="s2__gif" alt="">
+            <p class="s2__gif-text"> Мек, еластичен и изключително реалистичен материал точно пресъздава усещания, максимално близки до естествените. Играчката лесно приема форма и бързо възстановява първоначалния си вид, демонстрирайки високо качество и дълготрайност. Всеки
+                детайл е създаден за вашия комфорт и максимално удоволствие. Това не е просто аксесоар — това е ново ниво на усещания, което винаги е на една ръка разстояние.</p>
+        </section>
+
+        <section class="s4">
+            <img src="images/d1.webp" alt="" class="s4__main-img">
+            <div class="sale">
+                <span class="sale__title"> Отстъпка</span>
+                <span class="sale__digit"> 50%</span>
+            </div>
+            <div class="price">
+                <div class="price__old">
+                    <span> Стара цена</span>
+                    <div class="digit"> 118<span class="currency"> евро</span></div>
+                </div>
+                <div class="price__new">
+                    <span> Нова цена</span>
+                    <div class="digit"> 59<span class="currency"> евро</span></div>
+                </div>
+            </div>
+            <form action="" method="post" id="order-form">
+                <label style="display:block; text-align:center; margin:15px 0 8px; font-size:16px; color:#ffffff;">
+    Например: Иван Георгиев
+</label>
+                <input type="text" name="name" required placeholder="Име" style="
+        width:100%;
+        padding:18px 20px;
+        border-radius:40px;
+        border:none;
+        background:#eee;
+        font-size:16px;
+        outline:none;
+        box-sizing:border-box;
+    ">
+
+                <label style="display:block; text-align:center; margin:15px 0 8px; font-size:16px; color:#ffffff;">
+    Например: +359881234567
+</label>
+                <input type="tel" name="phone" required placeholder="Телефон" style="
+        width:100%;
+        padding:18px 20px;
+        border-radius:40px;
+        border:none;
+        background:#eee;
+        font-size:16px;
+        outline:none;
+        box-sizing:border-box;
+    ">
+                <a href="#order-form" class="scroll-btn"> Поръчай</a>
+
+            </form>
+        </section>
+
+
+        <section class="s7">
+
+            <img src="images/nasabky2.png" alt="" class="s7__main-img">
+            <p class="s7__text-bold"> Попълнете формата, за да получите отстъпка</p>
+
+            <img src="images/sponsors.webp" alt="" class="sponsors">
+        </section>
+        <footer class="footer">
+            <p> Trestadar INC, 720 Oak Drive, Carlock, IL 61725, USA</p>
+            <p><a href="policy_it.html" target="_blank"> Политика за поверителност</a></p>
+        </footer>
+    </div>
+
+
+    <div class="menu">
+        <a href="#how-work" class="menu__item"> Принцип на действие</a>
+        <a href="#for-whom" class="menu__item"> За кого е подходящ Sex Doll</a>
+        <a href="#characteristics" class="menu__item"> СПЕЦИФИКАЦИИ</a>
+        <a href="#description" class="menu__item"> Описание на накрайниците</a>
+        <a href="#triggers" class="menu__item"> Обработка на тригерни точки</a>
+        <a href="#reviews" class="menu__item"> Отзиви</a>
+        <a href="#how-order" class="menu__item"> Как да поръчате</a>
+        <a href="#order-form" class="menu__item scroll-btn"> Поръчай с отстъпка</a>
+    </div>
+    <script src="js/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- callback -->
+    <div class="callback-btn">
+        <img src="images/i-phone.webp" alt="">
+    </div>
+    <div class="callback-form hide">
+        <form class="form lead_form" action="" style="padding: 20px 0;" method="post">
+            <label for="form_name1" style="padding: 0 0 0 10px; color: #fff"> Например: Иван Георгиев</label>
+            <input id="form_name1" class="name" type="text" name="name" placeholder="Име" required="" style="margin-bottom: 20px;">
+            <label for="form_phone1" style="padding: 0 0 0 10px; color: #fff"> Например: +359881234567</label>
+            <input id="form_phone1" class="phone" type="tel" name="phone" placeholder="Телефон" required="">
+            <button class="orange-btn primary_btn" type="submit"> Поръчай с отстъпка </button>
+        </form>
+        <img src="images/i-cross.svg" alt="Затвори">
+    </div>
+
+    <!-- callback -->
+    <style>
+        .callback-btn {
+            z-index: 1000;
+            position: fixed;
+            right: -8px;
+            top: 130px;
+            width: .75rem;
+            height: .63rem;
+            background: #ff2e2e;
+            border-top-left-radius: 40px;
+            border-bottom-left-radius: 40px;
+            border-right: none;
+            padding-top: 10px;
+            padding-left: 10px;
+            transition: right 100ms;
+            cursor: pointer;
+        }
+        
+        .callback-btn img {
+            width: 65%;
+        }
+        
+        .callback-form {
+            max-width: 350px;
+            width: 100%;
+            z-index: 1001;
+            position: fixed;
+            right: 0;
+            top: 50px;
+            background: #868686;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            padding-top: 15px;
+            transition: right 500ms ease-in-out;
+        }
+        
+        .callback-form.hide {
+            right: -1000px;
+        }
+        
+        .callback-form form {
+            width: 90%;
+            margin: auto;
+            color: #131b32;
+            padding-bottom: 20px;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: "Montserrat", sans-serif;
+        }
+        
+        .callback-form form h5 {
+            float: left;
+            margin: 10px auto 1px;
+            margin-left: 0;
+            font-family: "Arial", sans-serif;
+            color: white;
+        }
+        
+        .callback-form form input {
+            width: 100%;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 4px;
+            height: 40px;
+            color: #131b32;
+            text-align: left;
+            font-size: 20px;
+            padding-left: 10px;
+            background-color: #fff;
+            border: 1px solid #000;
+            outline: none;
+        }
+        
+        .callback-form .orange-btn {
+            padding: 10px 5%;
+            width: 85%;
+            background: #ff2e2e;
+            margin-top: 10px;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            color: #fff;
+            border-radius: 50px;
+            box-shadow: 0px 0px 15px #ff2e2e;
+            outline: none;
+        }
+        
+        .callback-form img[src="img/i-cross.svg"] {
+            position: absolute;
+            right: 15px;
+            top: 10px;
+            cursor: pointer;
+            width: 20px;
+        }
+    </style>
+    <script>
+        $(".callback-btn").click(function() {
+            $(".callback-form").toggleClass("hide");
+        });
+
+        $(document).click(function(e) {
+            if (
+                $(e.target).closest($(".callback-form, .callback-btn, .show-callback"))
+                .length > 0
+            ) {
+                return;
+            }
+            $(".callback-form").addClass("hide");
+        });
+
+        $('img[src="img/i-cross.svg"]').click(function() {
+            $(".callback-form").addClass("hide");
+        });
+    </script>
+
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+    </script>
+    <noscript></noscript>
+    <!-- End Facebook Pixel Code -->
+    <script>
+        (function() {
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', '?forward=aHR0cHM6Ly9sZWFkcm9jay5jb20vYXBpL3YyL3ZhbGlkYXRpb24vY29uZmlnP3RyYWNrX3VybD0wJmlwPTJhMDA6YjcwMzpmZmYxOjEwMjo6MSZ1YT1Nb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTQ0LjAuMC4wIFNhZmFyaS81MzcuMzY=' + '&domain=' + window.location.protocol + '//' + window.location.host, true);
+            xhr.withCredentials = true;
+            xhr.cache = false;
+            xhr.onload = function() {
+                var data = JSON.parse(xhr.responseText);
+                var trackId = '';
+                if (data.hasOwnProperty('macros') && data.macros.hasOwnProperty('track_id') && trackId !== '') {
+                    data.macros.track_id = trackId;
+                }
+                if (data.is_enabled) {
+                    LeadrockValidator.init(data);
+                }
+            };
+            xhr.send();
+        })();
+    </script>
+
+
+</body>
+
+</html>
