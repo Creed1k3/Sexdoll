@@ -382,6 +382,8 @@ section {
     margin: 0.3rem auto;
     width: 4.2rem;
     max-width: 420px;
+    display: flex;
+    justify-content: center;
 }
 
 .s2__gif-text {
